@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server that provides access to Swiss legal commentaries from [onlinekommentar.ch](https://onlinekommentar.ch). This server allows you to search and retrieve detailed legal commentaries on Swiss federal law through Claude Desktop or other MCP-compatible clients.
 
+<a href="https://glama.ai/mcp/servers/@self-tech-labs/onlinekommentar-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@self-tech-labs/onlinekommentar-mcp/badge" alt="Online Kommentar Server MCP server" />
+</a>
+
 ## Features
 
 - **Search Commentaries**: Full-text search across legal commentaries with filtering options
@@ -42,7 +46,7 @@ A Model Context Protocol (MCP) server that provides access to Swiss legal commen
 
 Add the following configuration to your Claude Desktop MCP settings file:
 
-**On macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+**On macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`  
 **On Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
 
 ```json
